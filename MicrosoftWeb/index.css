@@ -1,0 +1,77 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    margin: auto;
+}
+.position-relative{
+    text-align: center;
+    background-color: rgb(33, 94, 185);
+    color: white;
+}
+h5{
+    padding: 17px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1600px;
+}
+.text{
+    padding-top: 3%;
+    text-align: center;
+}
+.text p{
+    padding-top: 10px;
+    font-size: 15.5px;
+    margin-left:30%;
+    margin-right: 30%;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    background-color: #ffffff;
+    padding: 10px; 
+}
+
+.navbar img {
+    width: 100px;
+    height: auto;
+}
+
+.navbar-nav {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+}
+
+.nav-item {
+    margin: 0;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #333333;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+/* Add more styles as needed for responsiveness, hover effects, etc. */
+
+.row {
+    padding-left: 10px;
+}
+.row div{
+    background-color: aliceblue;
+}
+
+/* Media queries for tablets and windows */
+@media only screen and (min-width: 768px) {
+    /* Add tablet-specific styles */
+}
+
+@media only screen and (min-width: 987px) {
+    /* Add window-specific styles */
+}
