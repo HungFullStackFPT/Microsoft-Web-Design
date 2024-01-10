@@ -64,14 +64,24 @@ h5{
     padding-left: 10px;
 }
 .row div{
+    
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-left: 10px;
+}
+/* .row div ul{
     background-color: aliceblue;
+} */
+.row h3 {
+    margin-top: 15px;
+    background-color: rgb(245, 183, 67);
 }
 
-/* Media queries for tablets and windows */
+/* For tablet*/
 @media only screen and (min-width: 768px) {
-    /* Add tablet-specific styles */
+    
 }
-
+/* For windows */
 @media only screen and (min-width: 987px) {
-    /* Add window-specific styles */
+    
 }
