@@ -2,6 +2,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     max-width: 100%;
     margin: auto;
+   
 }
 
 .position-relative {
@@ -17,13 +18,15 @@ h5 {
 .container {
     max-width: 100%;
 }
+.container .row {
+    margin-left: 5%;
+}
 
 .text {
     padding-top: 3%;
     text-align: center;
 }
 
-.row2 {}
 
 .text p {
     padding-top: 10px;
@@ -35,7 +38,7 @@ h5 {
 .menu2 div {
     display: grid;
     grid-template-columns: auto auto auto auto auto auto;
-    margin-left: 30%;
+    margin-left: 19%;
 
 
 }
@@ -44,11 +47,11 @@ h5 {
     font-size: 100%;
 }
 
-.menu2 img {
+ .dealscard img {
     display: flex;
     height: 50%;
-    /* width: 100%; */
-}
+    max-width: 100%;
+} 
 
 .navbar {
     display: flex;
@@ -97,9 +100,7 @@ h5 {
  
 }
 
-/* .row div ul{
-    background-color: aliceblue;
-} */
+
 .row h6 {
     margin-top: 15px;
     background-color: rgb(245, 183, 67);
@@ -109,7 +110,31 @@ h5 {
 
 
 /* For tablet*/
-@media only screen and (min-width: 768px) {}
+@media only screen and (min-width: 768px) {
+    .text {
+        top: 0px;
+        left: 20%;
+      }
+      
+      
+    
+      .text h1 {
+        font-size: 30px;
+      }
+    
+      .text p {
+        top: 40px;
+        left: 25px;
+        font-size: 16px;
+      }
+    }
+
+
 
 /* For windows */
-@media only screen and (min-width: 987px) {}
+@media only screen and (min-width: 987px) {
+    .text {
+        left: 20%;
+      }
+
+}
