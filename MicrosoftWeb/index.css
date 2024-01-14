@@ -1,42 +1,68 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
+    max-width: 100%;
     margin: auto;
 }
-.position-relative{
+
+.position-relative {
     text-align: center;
     background-color: rgb(33, 94, 185);
     color: white;
 }
-h5{
+
+h5 {
     padding: 17px;
 }
 
 .container {
-    width: 100%;
-    max-width: 1600px;
+    max-width: 100%;
 }
-.text{
+
+.text {
     padding-top: 3%;
     text-align: center;
 }
-.text p{
+
+.row2 {}
+
+.text p {
     padding-top: 10px;
     font-size: 15.5px;
-    margin-left:30%;
+    margin-left: 30%;
     margin-right: 30%;
 }
+
+.menu2 div {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    margin-left: 30%;
+
+
+}
+
+.menu2 u {
+    font-size: 100%;
+}
+
+.menu2 img {
+    display: flex;
+    height: 50%;
+    /* width: 100%; */
+}
+
 .navbar {
     display: flex;
     justify-content: space-between;
-    align-items: center; 
+    align-items: center;
     background-color: #ffffff;
-    padding: 10px; 
+    padding: 10px;
 }
 
 .navbar img {
     width: 100px;
     height: auto;
+    display: block;
+    position: relative;
 }
 
 .navbar-nav {
@@ -58,30 +84,32 @@ h5{
     border: none;
 }
 
-/* Add more styles as needed for responsiveness, hover effects, etc. */
+
 
 .row {
     padding-left: 10px;
 }
-.row div{
-    
+
+.row div {
+
     display: grid;
     grid-template-columns: auto auto auto auto;
-    margin-left: 10px;
+ 
 }
+
 /* .row div ul{
     background-color: aliceblue;
 } */
-.row h3 {
+.row h6 {
     margin-top: 15px;
     background-color: rgb(245, 183, 67);
+    border-radius: 10px;
+    text-align: center;
 }
 
+
 /* For tablet*/
-@media only screen and (min-width: 768px) {
-    
-}
+@media only screen and (min-width: 768px) {}
+
 /* For windows */
-@media only screen and (min-width: 987px) {
-    
-}
+@media only screen and (min-width: 987px) {}
