@@ -9,6 +9,7 @@ body {
   padding-left: 20px;
   padding-right: 20px;
   
+  
 }
 .position-relative {
   text-align: center;
@@ -16,7 +17,16 @@ body {
   background-color: rgb(33, 94, 185);
   color: white;
   padding: 1rem;
+
 }
+
+/* .container .row div {
+   border: 5px solid; 
+  padding: 20px;
+  box-shadow: 2px 2px #888888;
+} */
+
+
 
 
 
@@ -26,7 +36,7 @@ body {
 }
 
 p {
-  color: blue;
+  color: rgb(89, 89, 201);
 }
 
 .banner h5 {
@@ -75,7 +85,7 @@ nav {
   display: grid;
   grid-template-columns: 55% auto;
 }
-a{
+.container a{
   text-decoration: none;
 }
 
@@ -92,11 +102,29 @@ padding: 15px;
   padding: 20px;
 }
 
+
 .row img {
   width: 100%;
   height: auto;
   margin-bottom: 10px;
   
+}
+.flex-box {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  background-color: #f2f2f2;
+  max-height: 350px;
+}
+.flex-box img{
+  max-height: 80%;
+  padding-top:10% ;
+}
+.flex-box .flex{
+  padding: 5%;
+
+}
+.flex-box h6{
+  background-color: rgb(245, 183, 67);
 }
 
 
